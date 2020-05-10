@@ -9,12 +9,15 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
     FooterComponent
+    
   ],
   imports: [
     BrowserModule,
