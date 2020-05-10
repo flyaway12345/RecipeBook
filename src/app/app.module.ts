@@ -7,7 +7,8 @@ import { HeaderComponent } from './header/header.component';
 
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { RecipeListComponent } from './recipe-list/recipe-list.component';
+
+
 
 
 @NgModule({
@@ -15,8 +16,8 @@ import { RecipeListComponent } from './recipe-list/recipe-list.component';
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent,
-    RecipeListComponent
+    FooterComponent
+    
   ],
   imports: [
     BrowserModule,
