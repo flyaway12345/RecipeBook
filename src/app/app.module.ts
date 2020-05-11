@@ -8,13 +8,15 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    RecipeItemComponent,
+    RecipeItemComponent
     
   ],
   imports: [
