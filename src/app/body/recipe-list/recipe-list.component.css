@@ -1,0 +1,28 @@
+.title__header {
+    background: #9332AB;
+    color: rgb(236, 225, 225);
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  .btn-primary:hover {
+    background: #00b09f;
+  }
+  h4 {
+    font-family: 'Bangers', cursive;
+  }
+  
+.tile__footer {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: .5rem;
+  }
+  .container{
+      position: relative;
+  }
+  .btn{
+      margin-bottom: 1em;
+  }
+ img{
+      width:  253px ;
+      height: 169px;
+  }
+  

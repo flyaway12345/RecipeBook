@@ -1,12 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { RecipeListComponent } from "./body/recipe-list/recipe-list.component";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-
 import { BodyComponent } from './body/body.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { FooterComponent } from './footer/footer.component';
+
+
 
 
 @NgModule({
@@ -14,7 +15,9 @@ import { FooterComponent } from './components/footer/footer.component';
     AppComponent,
     HeaderComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    RecipeListComponent
+    
   ],
   imports: [
     BrowserModule,
