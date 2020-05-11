@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
+import { ButtonComponent } from './header/button/button.component';
 
 
 
@@ -16,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    RecipeListComponent
+    RecipeListComponent,
+    ButtonComponent
     
   ],
   imports: [
